@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+            <img id="gallery-image" src="image1.jpg" alt="Gallery Image">
+            <button class="next" onclick="changeImage(1)">&#10095;</button>
+        </div>
+        <div class="thumbnail-container">
+            <img class="thumbnail" src="img1.jpg" onclick="currentImage(0)" alt="Thumbnail 1">
+            <img class="thumbnail" src="img2.jpg" onclick="currentImage(1)" alt="Thumbnail 2">
+            <img class="thumbnail" src="img3.jpg" onclick="currentImage(2)" alt="Thumbnail 3">
+            <img class="thumbnail" src="img4.jpg" onclick="currentImage(2)" alt="Thumbnail 4">
+            <img class="thumbnail" src="img5.jpg" onclick="currentImage(2)" alt="Thumbnail 5">
+            <img class="thumbnail" src="img6.jpg" onclick="currentImage(2)" alt="Thumbnail 6">
+            <img class="thumbnail" src="img7.jpg" onclick="currentImage(2)" alt="Thumbnail 7">
+            <img class="thumbnail" src="img8.jpg" onclick="currentImage(2)" alt="Thumbnail 8">
+            <img class="thumbnail" src="img9.jpg" onclick="currentImage(2)" alt="Thumbnail 9">
+            <img class="thumbnail" src="img10.jpg" onclick="currentImage(2)" alt="Thumbnail 10">
+    
+
+
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
